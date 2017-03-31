@@ -1,0 +1,62 @@
+.task-wrapper {
+  height: auto;
+  min-height: 442px;
+  min-width: 320px;
+  max-width: 545px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  border: 1px solid #b0a28f;
+  border-radius: 4px;
+}
+
+.task-header {
+  height: 50px;
+  padding: var(--task-block-padding);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  border-bottom: 1px solid #b0a28f;
+}
+
+.task-variant {
+  font-size: 14px;
+  color: #b0a28f;
+}
+
+.task-level {
+  font-size: 14px;
+  color: #4b3f2e;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.task-header-icon {
+  height: 20px;
+  width: 20px;
+  margin-right: 6px;
+}
+
+.task-bottom {
+  height: 100px;
+  padding: var(--task-block-padding);
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  border-top: 1px solid #b0a28f;
+}
+
+.task-block {
+  padding: var(--task-block-padding);
+
+  flex: 1;
+}

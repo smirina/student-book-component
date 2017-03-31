@@ -1,0 +1,22 @@
+.task-block-wrapper {
+  padding: 26px 18px;
+}
+
+.task-text {
+  margin-bottom: 20px;
+
+  text-align: left;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 22px;
+  letter-spacing: 0.6px;
+}
+
+.help-button-layout {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.task-answers {
+  text-align: left;
+}

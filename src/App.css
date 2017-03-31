@@ -1,3 +1,7 @@
+:root {
+  --task-block-padding: 0 18px;
+}
+
 .App {
   text-align: center;
 }

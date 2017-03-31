@@ -1,0 +1,36 @@
+.task-radio-wrapper {
+  height: 30px;
+}
+
+.radio-answer-text {
+  margin-left: 20px;
+  width: 320px;
+}
+
+.task-radio-label {
+  color: grey;
+  font-size: 14px;
+  display:inline-block;
+  height: 30px;
+  width: 320px;
+  line-height: 30px;
+  text-align: left;
+}
+
+.task-radio-label input[type=radio] {
+    display: none;
+}
+
+.task-radio-label > .radio-mock-input {
+    background: #fff;
+    border: 1px solid  #b0a28f;
+    display:inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    vertical-align: middle;
+}
+
+.task-radio-label > input[type=radio]:checked + .radio-mock-input {
+    background: #b0a28f;
+}
